@@ -66,6 +66,7 @@ while run:
             bg = pygame.image.load("4.png")
             pygame.display.flip()
             runer.open(runer.games["gole.sv"], runer.x)
+            runer.open(runer.games["rps"], runer.x)
             x = ""            
         elif y == "gole":
             bg = pygame.image.load("4.png")
